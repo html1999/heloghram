@@ -1,0 +1,100 @@
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',serif;
+    box-sizing: border-box;
+}
+#oneid{
+ width:inherit;
+ padding:100px;
+ margin: ;
+ height: 1500px;
+ color:rgb(85, 45, 247);
+ font-size:45px;
+ background-image: url('img4jpg.jpg');
+ background-position:center ;
+ background-attachment:fixed;
+ background-color: #060606;
+}
+
+
+
+h1{
+
+    color: rgb(255, 255, 255);
+    padding-top: 300px;
+    font-style:italic;
+    font-size:100px; 
+    transition: 0.5s;
+  
+}
+h1:hover{
+   -webkit-text-stroke:4px hsl(0, 0%, 100%) ;
+   color: transparent;
+}
+nav{
+    width:100;
+    position: absolute;
+    top: 0;
+    left:0%;
+    padding: 20px 3%;
+    align-items: center;
+
+
+}
+nav .logo {
+    width: 170px;
+    border: 2px solid #060606 ;
+    border-radius: 40px;
+   
+    
+   
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left:300px;
+    position: relative;
+    width: 40px;
+   
+  
+}
+
+nav ul li a{
+    text-decoration:none;
+    font-size: 40px;
+    color: rgb(250, 251, 252);
+    position:relative;
+   background-color: rgba(105, 105, 105, 0.626);
+    border-radius: 20px;
+    display: inline-block;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    padding: 10px;
+
+}
+nav ul li a:hover{
+    transform: scale(1.5);
+    background: cornflowerblue;
+}
+
+.name{
+    
+    width:400%;
+    position:absolute;
+    down: 0;
+    left:0%;
+    padding: 20px 3%;
+    padding-left: 40px;
+    font-size: 20px;
+    align-items: center;
+    background: #458fc88f;
+    border-block-start-style: groove;
+    font-size: xx-large;
+
+}
+
+
+}
